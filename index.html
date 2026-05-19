@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundial Stickers — Tu álbum del Mundial en el bolsillo</title>
+    <meta name="description" content="App offline para coleccionistas del Mundial 2026. Registrá tus figuras, cambiá repetidas con QR. Sin internet, sin cuentas, sin anuncios.">
+    <meta property="og:title" content="Mundial Stickers">
+    <meta property="og:description" content="Tu álbum del Mundial siempre con vos. Cambiá repetidas cara a cara con QR.">
+    <meta property="og:type" content="website">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #fafafa;
+        }
+        .hero {
+            background: linear-gradient(135deg, #00A859 0%, #007a40 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 16px;
+            font-weight: 800;
+        }
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin: 0 auto 32px;
+            opacity: 0.95;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-bottom: 16px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        .section {
+            margin-bottom: 60px;
+        }
+        .section h2 {
+            font-size: 2rem;
+            color: #00A859;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        .section p {
+            font-size: 1.1rem;
+            margin-bottom: 16px;
+            color: #333;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+            margin-top: 32px;
+        }
+        .feature {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            border: 1px solid #e5e5e5;
+        }
+        .feature h3 {
+            color: #00A859;
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+        }
+        .feature p {
+            font-size: 1rem;
+            color: #555;
+            margin: 0;
+        }
+        .privacy-highlight {
+            background: #e8f5ec;
+            border-left: 4px solid #00A859;
+            padding: 24px;
+            border-radius: 8px;
+            margin: 32px 0;
+        }
+        .privacy-highlight strong {
+            color: #00A859;
+        }
+        footer {
+            background: #1a1a1a;
+            color: #ccc;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #00A859;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .small {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            margin-top: 16px;
+        }
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2rem; }
+            .hero p { font-size: 1.1rem; }
+            .section h2 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="badge">Próximamente en Google Play</div>
+        <h1>Mundial Stickers</h1>
+        <p>Tu álbum del Mundial siempre con vos. Registrá tus figuras y cambiá repetidas cara a cara con QR.</p>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2>¿Qué es?</h2>
+            <p>Una app móvil pensada para coleccionistas latinos. Llevá tu álbum del Mundial 2026 en el celular: marcá las figuras que conseguiste, contá tus repetidas, y cuando te encontrás con otro coleccionista, simplemente escaneás su código QR. La app te dice al instante qué pueden cambiar.</p>
+            <p>Sin cuentas. Sin internet. Sin servidores. Todo vive en tu teléfono.</p>
+        </section>
+
+        <section class="section">
+            <h2>Lo que podés hacer</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>📋 Registrá tu inventario</h3>
+                    <p>Tocá cada figura cuando la conseguís. Marcá repetidas. Vé tu progreso en porcentaje.</p>
+                </div>
+                <div class="feature">
+                    <h3>🔄 Intercambios con QR</h3>
+                    <p>Mostrá tu código a otro coleccionista, escaneá el suyo, y la app calcula automáticamente qué cambiar.</p>
+                </div>
+                <div class="feature">
+                    <h3>⚡ Carga rápida</h3>
+                    <p>¿Abriste 5 sobres? Tipeá los números separados por coma y se registran todos de un saque.</p>
+                </div>
+                <div class="feature">
+                    <h3>📂 Múltiples secciones</h3>
+                    <p>Soporta álbumes con sub-series: numeradas, repechajes, escudos, todo en el mismo álbum.</p>
+                </div>
+                <div class="feature">
+                    <h3>💾 Backup manual</h3>
+                    <p>Exportá tu inventario como archivo JSON. Importalo cuando quieras en otro celular.</p>
+                </div>
+                <div class="feature">
+                    <h3>🌙 Modo oscuro</h3>
+                    <p>Tema claro y oscuro automático según tu sistema, o forzado a gusto.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Privacidad</h2>
+            <div class="privacy-highlight">
+                <p><strong>Cero datos recolectados.</strong> Mundial Stickers no tiene servidor, no recopila información personal, no usa analytics ni tracking. Tu data vive solo en tu celular. El permiso de cámara se usa únicamente para escanear códigos QR de otros coleccionistas — la app nunca toma fotos ni graba video.</p>
+            </div>
+            <p>Leé la <a href="privacy.html" style="color: #00A859;">política de privacidad completa</a>.</p>
+        </section>
+
+        <section class="section">
+            <h2>Álbumes soportados</h2>
+            <p><strong>Hoy:</strong> 3 Reyes Mundial 2026 (699 figuras: 584 numeradas + 67 repechajes + 48 escudos).</p>
+            <p><strong>Próximamente:</strong> Panini FIFA World Cup 2026.</p>
+        </section>
+
+        <section class="section">
+            <h2>Contacto</h2>
+            <p>¿Encontraste un bug? ¿Tenés sugerencias? ¿Querés que agreguemos un álbum nuevo?</p>
+            <p>Escribinos a <a href="mailto:mundialstickers.app@gmail.com" style="color: #00A859;">mundialstickers.app@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <a href="index.html">Inicio</a>
+            <a href="privacy.html">Política de privacidad</a>
+        </p>
+        <p class="small">© 2026 Mundial Stickers. Hecho con cariño para coleccionistas latinos.</p>
+    </footer>
+</body>
+</html>
