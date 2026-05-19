@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoyar el proyecto — Cambio Figuritas</title>
+    <meta name="description" content="Invitá un cafecito al desarrollador de Cambio Figuritas. Yape, Plin, PayPal o Buy Me a Coffee.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #fafafa;
+        }
+        .nav {
+            background: #f0f0f0;
+            padding: 12px 20px;
+            text-align: center;
+        }
+        .nav a {
+            color: #00A859;
+            text-decoration: none;
+            margin: 0 12px;
+            font-size: 0.95rem;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: linear-gradient(135deg, #00A859 0%, #007a40 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero .emoji {
+            font-size: 4rem;
+            margin-bottom: 16px;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+            font-weight: 800;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.95;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 48px;
+            font-size: 1.1rem;
+            color: #333;
+        }
+        .intro strong {
+            color: #00A859;
+        }
+        .donation-methods {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        .method {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            border: 1px solid #e5e5e5;
+            display: flex;
+            flex-direction: column;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        .method:hover {
+            border-color: #00A859;
+            transform: translateY(-2px);
+        }
+        .method-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .method-icon {
+            font-size: 2rem;
+            margin-right: 16px;
+        }
+        .method-title {
+            font-size: 1.3rem;
+            color: #1a1a1a;
+            font-weight: 700;
+        }
+        .method-subtitle {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 16px;
+        }
+        .method-detail {
+            background: #f5f5f5;
+            padding: 16px;
+            border-radius: 8px;
+            font-family: "Courier New", monospace;
+            font-size: 1.1rem;
+            text-align: center;
+            margin-bottom: 12px;
+            word-break: break-all;
+        }
+        .btn {
+            display: inline-block;
+            background: #00A859;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background: #007a40;
+        }
+        .btn-secondary {
+            background: white;
+            color: #00A859;
+            border: 2px solid #00A859;
+        }
+        .btn-secondary:hover {
+            background: #00A859;
+            color: white;
+        }
+        .copy-btn {
+            background: none;
+            border: 1px solid #00A859;
+            color: #00A859;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            margin-left: 8px;
+        }
+        .copy-btn:hover {
+            background: #00A859;
+            color: white;
+        }
+        .thank-you {
+            text-align: center;
+            margin-top: 60px;
+            padding: 32px;
+            background: #e8f5ec;
+            border-radius: 12px;
+        }
+        .thank-you h2 {
+            color: #00A859;
+            margin-bottom: 12px;
+            font-size: 1.5rem;
+        }
+        .thank-you p {
+            color: #333;
+        }
+        footer {
+            background: #1a1a1a;
+            color: #ccc;
+            padding: 24px 20px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #00A859;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.8rem; }
+            .hero p { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">← Volver al inicio</a>
+    </div>
+
+    <header class="hero">
+        <div class="emoji">☕</div>
+        <h1>Invitame un cafecito</h1>
+        <p>Si te gusta Cambio Figuritas y querés apoyar el proyecto, acá tenés varias formas de ayudarme a seguir mejorando la app.</p>
+    </header>
+
+    <main class="container">
+        <p class="intro">
+            <strong>Cambio Figuritas</strong> es 100% gratis y sin anuncios. La hago en mis ratos libres con mucho cariño para coleccionistas latinos. Cualquier aporte, por chico que sea, me ayuda a seguir mejorándola.
+        </p>
+
+        <div class="donation-methods">
+
+            <!-- YAPE -->
+            <div class="method">
+                <div class="method-header">
+                    <div class="method-icon">📱</div>
+                    <div class="method-title">Yape</div>
+                </div>
+                <p class="method-subtitle">Para usuarios en Perú. Rápido y sin comisiones.</p>
+                <div class="method-detail">
+                    +51 999 999 999
+                    <!-- TODO: reemplazar con tu número real de Yape -->
+                </div>
+                <p style="font-size: 0.85rem; color: #666; text-align: center;">
+                    Tocá Yapear → contacto nuevo → ingresá el número
+                </p>
+            </div>
+
+            <!-- PLIN -->
+            <div class="method">
+                <div class="method-header">
+                    <div class="method-icon">💚</div>
+                    <div class="method-title">Plin</div>
+                </div>
+                <p class="method-subtitle">Para usuarios en Perú con Interbank, BBVA o Scotiabank.</p>
+                <div class="method-detail">
+                    +51 999 999 999
+                    <!-- TODO: reemplazar con tu número real de Plin -->
+                </div>
+                <p style="font-size: 0.85rem; color: #666; text-align: center;">
+                    Tocá Plin → enviar dinero → ingresá el número
+                </p>
+            </div>
+
+            <!-- PAYPAL -->
+            <div class="method">
+                <div class="method-header">
+                    <div class="method-icon">🌎</div>
+                    <div class="method-title">PayPal</div>
+                </div>
+                <p class="method-subtitle">Para donaciones internacionales en USD.</p>
+                <a href="https://paypal.me/tuusuario" target="_blank" rel="noopener noreferrer" class="btn">
+                    Donar con PayPal
+                </a>
+                <!-- TODO: reemplazar tuusuario con tu PayPal.me real -->
+            </div>
+
+            <!-- BUY ME A COFFEE -->
+            <div class="method">
+                <div class="method-header">
+                    <div class="method-icon">☕</div>
+                    <div class="method-title">Buy Me a Coffee</div>
+                </div>
+                <p class="method-subtitle">Plataforma internacional simple, acepta tarjeta y PayPal.</p>
+                <a href="https://buymeacoffee.com/tuusuario" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    Apoyar en Buy Me a Coffee
+                </a>
+                <!-- TODO: reemplazar tuusuario con tu username de Buy Me a Coffee -->
+            </div>
+
+        </div>
+
+        <div class="thank-you">
+            <h2>¡Gracias! 🙏</h2>
+            <p>Cada aporte —por más chico que sea— me da energía para seguir mejorando la app. Si donaste, escribime a <a href="mailto:fernando.llanos1@gmail.com" style="color: #00A859;">fernando.llanos1@gmail.com</a> y te lo agradezco personalmente.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            <a href="index.html">Inicio</a> ·
+            <a href="privacy.html">Privacidad</a> ·
+            <a href="donate.html">Apoyar</a>
+        </p>
+        <p style="margin-top: 12px;">© 2026 Cambio Figuritas</p>
+    </footer>
+</body>
+</html>
